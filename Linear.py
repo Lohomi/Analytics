@@ -1,8 +1,3 @@
-"""
-dataset : https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P14-Part2-Regression.zip
-"""
-```python
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,5 +50,5 @@ print("Final rmse value is =",np.sqrt(np.mean((Y_test-Y_pred)**2)))
 
 from sklearn.metrics import mean_squared_error
 mean_squared_error(Y_test,Y_pred)
-```
-RMSE = 3580.979237321343
+
+# Result : RMSE = 3580.979237321343
