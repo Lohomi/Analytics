@@ -2,12 +2,7 @@
 dataset : https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P14-Part2-Regression.zip
 """
 ```python
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May  1 20:06:46 2020
 
-@author: Parth
-"""
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
