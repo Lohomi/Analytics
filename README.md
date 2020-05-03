@@ -1,4 +1,4 @@
-# Analytics
+# Explanations and Insights to vaious Machine Learning Models
 Hereby lies various insights as well as Visualizations of the Models
 
 ## Linear Model Visualization
