@@ -13,3 +13,8 @@ Hereby lies various insights as well as Visualizations of the Models
   > The [Dummy Variable](https://www.algosome.com/articles/dummy-variable-trap-regression.html) trap is a scenario in which the independent variables are multicollinear - a scenario in which two or more        variables are highly correlated; in simple terms one variable can be predicted from the others. 
 ## Polynomial Linear Regression
 First let us see how our simple linear model fits the data :
+
+![](https://github.com/Lohomi/Analytics/blob/master/LinearReg(PolyModel).png)
+
+We can see that the linear model does not fit the data at all, we get a R2 score of **0.50**, which is not acceptable as we want to make robust predictions, after that we fit the polynomial regression of degree 3 and hence see the visualization.
+![]()
