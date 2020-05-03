@@ -21,3 +21,8 @@ We can see that the linear model does not fit the data at all, we get a R2 score
 ![](https://github.com/Lohomi/Analytics/blob/master/PolyRegVisualization(degree3).png)
 
 So here we see a well fitting curve, now robust predictions can be made from this model, we can make the fitting even more accurate by increasing the Degree of the polynomia, but you will have to make sure that you are avoiding **Overfitting** of data, Overfitting leads to **high accuracy** in the **Training set** but very **poor predictions** in any new data, its often reffered to as High Variance.
+
+| Model | R2 Score | MSE |
+| ----- |:--------:|----:|
+|Linear Regression Model | 0.505 | 26695878787.878784 |
+|Polynomial Linear Regression | 0.980 | 1515662004.662002 |
