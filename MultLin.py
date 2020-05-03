@@ -34,7 +34,7 @@ lm = LinearRegression()
 lm.fit(x_train,y_train)
 y_pred = lm.predict(x_test)
 
-#Calculate the accuracy 
+#Calculate the accuracy(r2 score and MSE)
 
 from sklearn.metrics import r2_score,mean_squared_error
 r2_accuracy = r2_score(y_test,y_pred)
