@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
+#import the dataset
 df = pd.read_csv("Salary_Data.csv")
 df.head()
 # Check for missing Data
