@@ -31,6 +31,15 @@ This process continues until we reach a point in step 4 where the highest P-valu
 ### Step 6
 Once we reach step 6, we’re done with the feature selection process. We have successfully used backward elimination to filter out features which were not significant enough for our model.
 
+- Let's have a look at the `code`
+```python
+import statsmodels.formula.api as sm
+X = np.append(arr = X, values = np.ones(rows,columns),axis =1) #for a linear model we need to add a column which corresponds to the constant term b_0 in **y = b_0+b_1*x_1+ ... **
+X_opt = X[rows,columns]
+reg = sm.OLS(endog = y, exog = X_opt).fit()
+reg.summary #Look for P-value of the independent variables
+```
+
 ## Polynomial Linear Regression
 First let us see how our simple linear model fits the data :
 
